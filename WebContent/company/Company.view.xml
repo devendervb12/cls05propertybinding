@@ -1,0 +1,13 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="company.Company" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	      <Label text="Company Name"/>
+	      <Text text="{/name}"/>
+	      <Label text="Flat No"/>
+	      <Text text="{/address/flatno}"/>
+	      <Label text="City"/>
+	      <Input value="{/address/city}"/>
+		</content>
+	</Page>
+</core:View>
